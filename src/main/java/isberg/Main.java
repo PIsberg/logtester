@@ -6,9 +6,9 @@ import org.slf4j.LoggerFactory;
 
 //TODO: add unit tests instead of everything in main ..
 
-public class LogTest {
+public class Main {
 	
-	protected static final org.slf4j.Logger slf4jlogger = org.slf4j.LoggerFactory.getLogger(LogTest.class);
+	protected static final org.slf4j.Logger slf4jlogger = org.slf4j.LoggerFactory.getLogger(Main.class);
 	
     public static void main(String[] args) {
     	
@@ -18,11 +18,7 @@ public class LogTest {
     	System.out.println("INFO " + slf4jlogger.isInfoEnabled());
     	
     	
-   //#Test 1 Stringconcatenation
-//    	int i = 0;
-//    	while(i<10000) {
-//    		logger.debug("asdf" + "asdf" + i);
-//    	}
+
     	
 //    	   //# Test 2 Without Stringconcatenation
 //     	System.out.println("asfasdf");
